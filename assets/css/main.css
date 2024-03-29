@@ -1,5 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url("https://fonts.googleapis.com/css?family=Lexend:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap')
 
 /*
 	Prologue by HTML5 UP
@@ -24,6 +26,46 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+
+
+
+
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.lexend-<uniquifier> {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.lexend-light {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.lexend-body{
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lexend-display{
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -84,7 +126,7 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Lexend', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -111,8 +153,8 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
-		color: #666;
+		font-family: 'Lexend', sans-serif;
+		color: #fff;
 		line-height: 1.5em;
 	}
 
@@ -131,11 +173,11 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			color: #888;
+			color: white;
 		}
 
 			h2.alt strong {
-				color: #666;
+				color: #53FC18;
 			}
 
 	h3 {
@@ -154,8 +196,8 @@ input, select, textarea {
 		margin: 2em 0 0 0;
 	}
 
-	strong, b {
-		font-weight: 300;
+	//strong, b {
+		font-weight: 900;
 		color: #666;
 	}
 
@@ -175,7 +217,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #E27689;
+			color: #53FC18;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -2046,14 +2088,14 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #222629 url("images/overlay.png");
+		background: #000;
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
 		left: 0;
 		overflow-y: auto;
 		position: fixed;
-		text-align: right;
+		text-align: left;
 		top: 0;
 		width: 375px;
 	}
@@ -2155,7 +2197,7 @@ input, select, textarea {
 
 					#nav ul li a span:before {
 						position: absolute;
-						left: 0;
+						right: 0;
 						color: #41484c;
 						text-align: center;
 						width: 1.25em;
@@ -2169,7 +2211,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #53FC18;
 					}
 
 /* Footer */
@@ -2213,7 +2255,7 @@ input, select, textarea {
 			overflow: hidden;
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
-			text-align: center;
+			text-align: left;
 			background-image: url("images/overlay.png");
 		}
 
@@ -2222,23 +2264,6 @@ input, select, textarea {
 				color: rgba(255, 255, 255, 0.75);
 			}
 
-				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					color: inherit;
-				}
-
-				#main > section.dark strong {
-					color: #fff;
-					border-color: inherit;
-				}
-
-				#main > section.dark a {
-					color: #fff;
-					border-color: inherit;
-				}
-
-					#main > section.dark a:hover {
-						border-bottom-color: rgba(255, 255, 255, 0);
-					}
 
 			#main > section.cover {
 				padding: 10em 0;
@@ -2247,12 +2272,12 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-color: #000;
+		
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: navy;
 			}
 
 			#main > section.three {
@@ -2260,7 +2285,7 @@ input, select, textarea {
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #000;
 			}
 
 /* Wide */
@@ -2440,7 +2465,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
-				background: #222729 url("images/overlay.png");
+				background: #000;
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
 
@@ -2588,7 +2613,7 @@ input, select, textarea {
 			h2 {
 				font-size: 1.5em;
 				letter-spacing: 0;
-				font-weight: 300;
+				font-weight: 900;
 			}
 
 			.container {
