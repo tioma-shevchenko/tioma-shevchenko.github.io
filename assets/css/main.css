@@ -1765,6 +1765,12 @@
 		margin-top: -0.6em;
 		line-height: 1.5em;
 	}
+
+	section p span {
+		font-size: 0.75em;
+		font-style: italic;
+	}
+
 	section p, ul {
 		font-size: 0.9em;
 	}
