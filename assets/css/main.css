@@ -1605,12 +1605,18 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5 {
 		font-family: "Syne", "Lexend", Helvetica, sans-serif;
 		color: rgba(0,0,0,1);
 		font-weight: 300;
 		line-height: 0.7em;
 		margin: 0 0 1em 0;
+	}
+	h6{
+		font-family: "Lexend", Helvetica, sans-serif;
+		font-size: 1.4em;
+		line-height: 1.2em;
+		font-weight: 700;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1658,11 +1664,6 @@
 
 	h5 {
 		font-size: 0.9em;
-		line-height: 1.5em;
-	}
-
-	h6 {
-		font-size: 0.7em;
 		line-height: 1.5em;
 	}
 
@@ -2665,7 +2666,7 @@ ul.no-bullets {
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 4em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
@@ -2992,7 +2993,7 @@ ul.no-bullets {
 			#main {
 				margin-left: 30%;
 				max-width: none;
-				padding: 6em 3em 3em 3em;
+				padding: 3em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
 
@@ -3093,7 +3094,7 @@ ul.no-bullets {
 			}
 
 			h3 {
-				font-size: 1em;
+				font-size: 1.5em;
 			}
 
 		/* Section/Article */
