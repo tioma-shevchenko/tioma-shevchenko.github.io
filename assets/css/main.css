@@ -27,6 +27,11 @@
 
 	body {
 		line-height: 1;
+		background: #f7daae;
+		ccursor: url("https://tioma-shevchenko.github.io/images/cursor.svg"), auto;
+  }
+  	a, button, .w-button, .w-dropdown-toggle{
+		ccursor: url("https://tioma-shevchenko.github.io/images/pointer.svg"), pointer !important;
 	}
 
 	ol, ul {
@@ -1622,7 +1627,7 @@
 	h6{
 		font-family: "Lexend", Helvetica, sans-serif;
 		font-size: 1.4em;
-		line-height: 1.2em;
+		line-height: 1.4em;
 		font-weight: 700;
 	}
 
@@ -1742,7 +1747,7 @@
 /* Section/Article */
 
 	section p strong {
-		background: rgba(83,252,24,0.5);
+		background: rgba(83,252,24,0.39);
 	}
 
 	section.special, article.special {
@@ -1781,6 +1786,7 @@
 
 	section p, ul {
 		font-size: 0.9em;
+		line-height: 1.4em;
 	}
 
 /* Form */
@@ -2125,8 +2131,10 @@
 			}
 
 			.image.avatar img {
-				border-radius: 50%;
+				border-radius: 47%;
 				width: 100%;
+				border: solid black 3px;
+    			filter: drop-shadow(7px 7px 0px #fb9d51);
 			}
 
 /* List */
@@ -2205,7 +2213,6 @@ ul.no-bullets {
 				}
 
 		ul.actions {
-			cursor: default;
 			list-style: none;
 			padding-left: 0;
 		}
@@ -2384,11 +2391,11 @@ ul.no-bullets {
 
 
 .button {
-  border: 3px solid white;
+  border: 3px solid #1f1815;
   padding: 12px 16px;
   position: relative;
   background-color: rgb(255, 119, 11);
-  color: white;
+  color: #1f1815;
   font-family: "Roboto Mono","B612 Mono", sans-serif;
   font-weight: 700;
   letter-spacing: normal;
@@ -2402,7 +2409,7 @@ ul.no-bullets {
     left: 10px;
     height: 100%;
     width: 100%;
-    background-color: #ffea00;
+    background-color: black;
     content: "";
     z-index: -1;
     transition: transform 0.2s ease-in, width 0.2s ease-out 0.2s;
@@ -2446,8 +2453,8 @@ ul.no-bullets {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: #ff770b;
-		color: rgba(255,255,255,1) !important;
+		background-color: #fb9d51;
+		color: #1f1815 !important;
 		cursor: pointer;
 		display: inline-block;
 		height: 3.15em;
@@ -2465,9 +2472,9 @@ ul.no-bullets {
 		input[type="button"]:hover,
 		
 		.button:hover {
-			color: rgba(255,255,255,1) !important;
-			background-color: #e26400;
-			border: 3px solid white;
+			color: #1f1815 !important;
+			background-color: #ff770b;
+			border: 3px solid #1f1815;
 		}
 
 		input[type="submit"]:active,
@@ -2575,12 +2582,12 @@ ul.no-bullets {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		
 		background-attachment: scroll,								fixed;
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 120%;
-		color: rgba(255, 255, 255, 0.5);
+		color: black;
 		height: 100%;
 		left: 0;
 		padding: 4em 4em 0 4em;
@@ -2613,15 +2620,13 @@ ul.no-bullets {
 		}
 
 		#header h1 {
-			color: #46d315;
-			font-size: 2em;
-			font-weight: 600;
+			color: black;
+			font-weight: 700;
 			line-height: 0.8em;
 			margin-bottom: 8px;
 		}
 		#header p {
-			color: #fff;
-			font-size: 1em;
+			font-size: 0.9em;
 			font-weight: 400;
 			line-height: 1.2em;
 			margin: 0;
@@ -2643,7 +2648,6 @@ ul.no-bullets {
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.8);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -2666,6 +2670,11 @@ ul.no-bullets {
 	.cactus {
 		text-align: right;
 	}
+	#credits {
+		font-size: 0.7em;
+		text-align: right;
+		margin-right: 5em;
+	}
 
 
 /* Main */
@@ -2678,7 +2687,7 @@ ul.no-bullets {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: dashed; 2px #594f4f;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -2994,6 +3003,7 @@ ul.no-bullets {
 				padding-left: 0;
 				font-size: 0.84em;
 			}
+			#credits {margin-right: 7em;}
 
 		/* Main */
 
@@ -3003,6 +3013,7 @@ ul.no-bullets {
 				padding: 3em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
+
 
 	}
 
@@ -3049,7 +3060,6 @@ ul.no-bullets {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #000;
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -3083,6 +3093,12 @@ ul.no-bullets {
 				padding: 6em 4em;
 				width: 100%;
 			}
+			#main > section:first-child {
+    		border-top: 2px dashed black;
+    		padding-top: 2em;
+    		margin-top: -4em;
+			}
+			
 
 	}
 
