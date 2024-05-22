@@ -1789,6 +1789,95 @@
 		line-height: 1.4em;
 	}
 
+/* Story */
+.bodyguard {
+    line-height: 1.6em;
+    font-size: 0.95em;
+    letter-spacing: -0.03em;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Center the container on the page */
+.container {
+    width: 100%;
+    max-width: 720px;
+}
+.topline {
+	margin-bottom: 2em;
+	padding-bottom: 1em;
+	font-size: 0.9em;
+	border-bottom: 2px dashed black;
+
+}
+
+/* Style the blog post */
+.blog-post {
+    padding: 20px;
+}
+
+/* Style for heading */
+.blog-post h1 {
+	margin-top: 2em;
+    margin-bottom: 20px;
+    font-family: "Roboto Mono", Helvetica, sans-serif;
+    font-size: 2.6em;
+    font-weight: 600;
+    line-height: 1.15em;
+    letter-spacing: -0.05em;
+}
+.blog-post h2 {
+	font-family: "Roboto Mono", Helvetica, sans-serif;
+    font-size: 1.05em;
+    font-weight: 800;
+    line-height: 1.15em;
+    letter-spacing: -0.05em;
+}
+
+/* Style for paragraphs */
+.blog-post p {
+    text-align: left;
+    margin-bottom: 2em;
+}
+.blog-post p strong {
+    font-weight: 800;
+}
+.blog-post img {
+    max-width: 100%;
+    border: 2px solid black;
+    filter: drop-shadow(7px 7px 0px #fb9d51);
+    sfilter: drop-shadow(7px 7px 0px black);
+}
+figcaption {
+	margin-bottom: 2em;
+	margin-top: 1em;
+	font-size: 0.8em;
+}
+p.separator {
+    text-align: center;
+}
+.blend-mode-multiply {
+    mix-blend-mode: multiply;
+    border: none !important;
+    filter: drop-shadow(0px 0px 0px #fb9d51) !important;
+}
+.progress-container {
+    position: fixed; /* Stick to the top */
+    top: 0; /* Position at the top of the viewport */
+    left: 0;
+    width: 100%;
+    background-color: #f7daae; /* Background color of progress bar */
+    z-index: 9999; /* Ensure the progress bar is above other content */
+}
+
+/* Style the progress bar */
+.progress-bar {
+    height: 4px; /* Height of the progress bar */
+    background-color: #fb9d51; /* Color of the progress bar */
+    width: 0; /* Initial width of the progress bar */
+}
+
 /* Form */
 
 	form {
