@@ -1855,6 +1855,7 @@ figcaption {
 	margin-bottom: 2em;
 	margin-top: 1em;
 	font-size: 0.8em;
+	line-height: 1.3;
 }
 p.separator {
     text-align: center;
@@ -1875,10 +1876,15 @@ p.separator {
 
 /* Style the progress bar */
 .progress-bar {
-    height: 4px; /* Height of the progress bar */
+    height: 6px; /* Height of the progress bar */
     background-color: #fb9d51; /* Color of the progress bar */
     width: 0; /* Initial width of the progress bar */
 }
+blockquote {
+      margin-left: 20px; /* Adjust the value as needed */
+      border-left: 7px solid black; /* Add a black border on the left */
+      padding-left: 10px; /* Add padding to separate the text from the border */
+    }
 
 /* Form */
 
