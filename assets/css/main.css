@@ -28,11 +28,11 @@
 	body {
 		line-height: 1;
 		background: #f7daae;
-		cursor: url("https://tioma-shevchenko.github.io/images/cursor.svg"), auto;
 		cursor: url("https://tioma-shevchenko.github.io/images/Cursor.svg"), auto;
+		
+		
   }
   	a, button, .w-button, .w-dropdown-toggle{
-		cursor: url("https://tioma-shevchenko.github.io/images/pointer.svg"), pointer !important;
 		cursor: url("https://tioma-shevchenko.github.io/images/Pointer.svg"), pointer !important;
 	}
 
