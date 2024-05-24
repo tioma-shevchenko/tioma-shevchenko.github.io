@@ -27,7 +27,8 @@
 
 	body {
 		line-height: 1;
-		background: #f7daae;
+		sbackground: #f7daae;
+		background: rgba(247, 218, 174, 0.7);
 		cursor: url("https://tioma-shevchenko.github.io/images/Cursor.svg"), auto;
 		
 		
