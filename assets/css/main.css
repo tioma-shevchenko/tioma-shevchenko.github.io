@@ -3228,6 +3228,11 @@ ul.no-bullets {
 				font-size: 1.35em;
 			}
 
+
+			.bodyguard {
+    		line-height: 1.6em;
+    		font-size: 1.2em;
+
 		/* List */
 
 			ul.labeled-icons li {
