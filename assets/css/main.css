@@ -27,8 +27,8 @@
 
 	body {
 		line-height: 1;
-		sbackground: #f7daae;
 		background: rgba(247, 218, 174, 0.7);
+		transform: none;
 		cursor: url("https://tioma-shevchenko.github.io/images/Cursor.svg"), auto;
 		
 		
@@ -3232,6 +3232,7 @@ ul.no-bullets {
 			.bodyguard {
     		line-height: 1.6em;
     		font-size: 1.1em;
+    	}
 
 		/* List */
 
